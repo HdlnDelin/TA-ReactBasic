@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class MovieCard extends Component {
-  render() {
-    return (
-      <h1>MovieCard</h1>
-    )
-  }
+const MovieCard = () => {
+  return (
+    <div>MovieCard</div>
+  )
 }
 
 export default MovieCard
